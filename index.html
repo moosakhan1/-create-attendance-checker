@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Attendance Checker</h1>
+        <input type="text" id="employeeName" placeholder="Enter Employee Name">
+        <button onclick="checkAttendance()">Check In</button>
+        <p id="message"></p>
+        <h2>Attendance History</h2>
+        <table id="attendanceTable">
+            <thead>
+                <tr>
+                    <th>Employee Name</th>
+                    <th>Check-in Time</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Attendance records will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
